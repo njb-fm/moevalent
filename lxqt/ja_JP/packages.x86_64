@@ -4,7 +4,6 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 b43-fwcutter
-broadcom-wl-dkms
 base
 bind-tools
 btrfs-progs
@@ -17,7 +16,6 @@ ddrescue
 dhclient
 dhcpcd
 diffutils
-dkms
 dmraid
 dnsmasq
 dosfstools
@@ -122,7 +120,8 @@ gvfs-gphoto2
 unifetch
 pavucontrol-qt
 pipewire
-pipewire-media-session
+wireplumber
+pipewire-jack
 pipewire-alsa
 pipewire-pulse
 moevalent-logo
@@ -198,7 +197,9 @@ okular
 
 # Input Method
 fcitx5-im
-fcitx5-mozc
+fcitx5-anthy-unicode
+anthy-unicode
+kasumi-unicode
 
 # Printer & Scanner
 cups
