@@ -4,7 +4,6 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 b43-fwcutter
-broadcom-wl-dkms
 base
 bind-tools
 btrfs-progs
@@ -17,7 +16,6 @@ ddrescue
 dhclient
 dhcpcd
 diffutils
-dkms
 dmraid
 dnsmasq
 dosfstools
@@ -121,11 +119,13 @@ gvfs-mtp
 gvfs-gphoto2
 unifetch
 pavucontrol-qt
+qjackctl
 pipewire
 wireplumber
 pipewire-jack
 pipewire-alsa
 pipewire-pulse
+gst-plugin-pipewire
 moevalent-logo
 univalent-logo
 moe-pink-lxqt-theme

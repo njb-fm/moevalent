@@ -119,11 +119,13 @@ gvfs-mtp
 gvfs-gphoto2
 unifetch
 pavucontrol-qt
+qjackctl
 pipewire
 wireplumber
 pipewire-jack
 pipewire-alsa
 pipewire-pulse
+gst-plugin-pipewire
 moevalent-logo
 univalent-logo
 moe-pink-lxqt-theme
