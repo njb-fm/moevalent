@@ -3,10 +3,10 @@ Arch-based Kawaii GNU/Linux Distro
 
 日本語版は<a href="README_ja.md">こちら</a>
 
-##What is this???
+## What is this???
 Moevalent GNU/Linux is derived from Univalent GNU/Linux with the so-called "moe" theme.
 
-##Branch List
+## Branch List
 |Name|Description|
 |----|----|
 |main|Relatively stable. Features introduced in the next release are included.|
@@ -14,7 +14,7 @@ Moevalent GNU/Linux is derived from Univalent GNU/Linux with the so-called "moe"
 |22.12|First Stable Release.|
 |23.03|Next Stable Release. Under developing.|
 
-##How To Build
+## How To Build
 ※The host OS must be Arch or descended in a direct from from it. 
 
 ### Preparation
@@ -48,5 +48,3 @@ cd univaiso-channels
 sudo mkarchiso -v <channel>/<locale>
 ```
 For an overview of each channel, please read the "README" in each root directory.
-
-チャンネル毎の概要については、それぞれのルートディレクトリに置いてある「README」をお読み下さい。
