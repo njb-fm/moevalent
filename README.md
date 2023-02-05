@@ -7,6 +7,8 @@ Arch-based Kawaii GNU/Linux Distro
 Moevalent GNU/Linux is derived from Univalent GNU/Linux with the so-called "moe" theme.
 
 ##Branch List
+|Name|Description|
+|----|----|
 |main|Relatively stable. Features introduced in the next release are included.|
 |testing|Because the update frequency is high, the latest function can be used although it's unstable.|
 |22.12|First Stable Release.|
