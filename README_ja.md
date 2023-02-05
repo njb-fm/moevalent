@@ -1,35 +1,35 @@
 # Moevalent GNU/Linux
-Arch-based Kawaii GNU/Linux Distro
+Archベースの可愛いGNU/Linuxディストロ
 
-日本語版は<a href="README_ja.md">こちら</a>
+English Version is <a href="README.md">here</a>
 
-##What is this???
-Moevalent GNU/Linux is derived from Univalent GNU/Linux with the so-called "moe" theme.
+##なにこれ
+Moevalent GNU/LinuxはUnivalent GNU/Linuxより派生し、いわゆる「萌え」テーマを適用したディストリビューションです。
 
-##Branch List
-|main|Relatively stable. Features introduced in the next release are included.|
-|testing|Because the update frequency is high, the latest function can be used although it's unstable.|
-|22.12|First Stable Release.|
-|23.03|Next Stable Release. Under developing.|
+##ブランチ一覧
+|main|比較的安定する。次期リリースで導入される機能が含まれる。|
+|testing|更新頻度が高いので不安定ながら最新の機能を利用できる。|
+|22.12|最初の安定リリース。|
+|23.03|次期安定リリース。現在開発中。|
 
-##How To Build
-※The host OS must be Arch or descended in a direct from from it. 
+##作ってみよう
+※親OSはArchかArch直系である必要があります。
 
-### Preparation
+###準備
 
-1. Install Archiso.
+1. Archisoを導入する。
 ```bash
 sudo pacman -S archiso
 ```
 
-2. Activate Univalent's key.
+2. Univalentの鍵を有効化する。
 ```bash
 sudo pacman-key --recv-key 048E45A1EC694BCE --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key 048E45A1EC694BCE
 sudo pacman -U 'https://osdn.net/projects/univalentgnulinux/storage/repo/univalent-signed/univalent-keyring-20221215-1-any.pkg.tar.zst' 'https://osdn.net/projects/univalentgnulinux/storage/repo/univalent-signed/univalent-mirrorlist-20221215-1-any.pkg.tar.zst'
 ```
 
-3. Activate "Chaotic AUR" repository.
+3. 「Chaotic AUR」リポジトリを有効化する。
 ```bash
 sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key 3056513887B78AEB
@@ -39,12 +39,11 @@ sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.ta
 echo -e "[chaotic-aur]\nInclude = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf
 ```
 
-## Usage
+### 使用法
 ```bash
 git clone https://github.com/Jin-Asanami/univaiso-channels
 cd univaiso-channels
 sudo mkarchiso -v <channel>/<locale>
 ```
-For an overview of each channel, please read the "README" in each root directory.
 
 チャンネル毎の概要については、それぞれのルートディレクトリに置いてある「README」をお読み下さい。
