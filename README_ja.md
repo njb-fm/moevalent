@@ -3,10 +3,10 @@ Archベースの可愛いGNU/Linuxディストロ
 
 English Version is <a href="README.md">here</a>
 
-##なにこれ
+## なにこれ
 Moevalent GNU/LinuxはUnivalent GNU/Linuxより派生し、いわゆる「萌え」テーマを適用したディストリビューションです。
 
-##ブランチ一覧
+## ブランチ一覧
 |名称|概略|
 |----|----|
 |main|比較的安定する。次期リリースで導入される機能が含まれる。|
@@ -14,7 +14,7 @@ Moevalent GNU/LinuxはUnivalent GNU/Linuxより派生し、いわゆる「萌え
 |22.12|最初の安定リリース。|
 |23.03|次期安定リリース。現在開発中。|
 
-##作ってみよう
+## 作ってみよう
 ※親OSはArchかArch直系である必要があります。
 
 ###準備
