@@ -12,7 +12,7 @@ Moevalent GNU/Linux is derived from Univalent GNU/Linux with the so-called "moe"
 |main|Relatively stable. Features introduced in the next release are included.|
 |testing|Because the update frequency is high, the latest function can be used although it's unstable.|
 |22.12|First Stable Release.|
-|23.03|Next Stable Release. Under developing.|
+|23.03|Next Stable Release. Development has  been canceled.|
 
 ## How To Build
 ※The host OS must be Arch or descended in a direct from from it. 
