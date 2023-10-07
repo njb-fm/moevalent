@@ -104,7 +104,7 @@ univalent-keyring
 univalent-mirrorlist
 xorg
 lxqt
-uve-skel-lxqt
+mve-skel-lxqt
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -142,7 +142,7 @@ ttf-ubuntu-font-family
 #Installer
 grub
 calamares
-calamares-settings-univalent
+calamares-settings-moevalent
 os-prober
 univalive
 
@@ -213,6 +213,7 @@ skanlite
 moevalent-lxqt-theme
 moe-pink-gtk-theme
 moe-pink-icons
+ttf-seto
 
 # Chaotic AUR
 chaotic-keyring
