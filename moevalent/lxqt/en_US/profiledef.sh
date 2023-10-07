@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="univalent-en"
+iso_name="moevalent-en"
 iso_label="UVE_2310L"
 iso_publisher="RadioNewJapan"
 iso_application="UVE Installation Drive"
