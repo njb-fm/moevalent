@@ -42,8 +42,8 @@ iwd
 jfsutils
 linux-atm
 linux-firmware
-linux-rt
-linux-rt-headers
+linux-rt-lts
+linux-rt-lts-headers
 lsb-release
 lsscsi
 lvm2
