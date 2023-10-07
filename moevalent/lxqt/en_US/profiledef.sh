@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="moevalent-en"
-iso_label="MOEVALENT_EN_23.03"
+iso_name="univalent-en"
+iso_label="UVE_2310L"
 iso_publisher="RadioNewJapan"
-iso_application="MVGL Installation Drive"
-iso_version="23.03"
-install_dir="arch"
-bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
+iso_application="UVE Installation Drive"
+iso_version="23.10"
+install_dir="univa"
+bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.grub.esp' 'uefi-x64.grub.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
@@ -16,7 +16,4 @@ file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
-  ["/usr/local/bin/choose-mirror"]="0:0:755"
-  ["/usr/local/bin/Installation_guide"]="0:0:755"
-  ["/usr/local/bin/livecd-sound"]="0:0:755"
 )

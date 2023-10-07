@@ -1,11 +1,12 @@
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: BSD-3-clause
 # Core Packages
 alsa-utils
 amd-ucode
 arch-install-scripts
 b43-fwcutter
 base
-bind-tools
+bind
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 cloud-init
@@ -16,6 +17,7 @@ ddrescue
 dhclient
 dhcpcd
 diffutils
+dkms
 dmraid
 dnsmasq
 dosfstools
@@ -38,16 +40,15 @@ intel-ucode
 irssi
 iwd
 jfsutils
-lftp
-linux-lts
-linux-lts-headers
+linux-atm
 linux-firmware
-livecd-sounds
+linux-rt
+linux-rt-headers
+lsb-release
 lsscsi
 lvm2
 man-db
 man-pages
-mc
 mdadm
 memtest86+
 mkinitcpio
@@ -98,12 +99,12 @@ xfsprogs
 xl2tpd
 zsh
 
-#Univalent GNU/Linux LXQt
+#Moevalent Versatile Environment
 univalent-keyring
 univalent-mirrorlist
 xorg
 lxqt
-uvgl-skel-lxqt-moe-ja
+uve-skel-lxqt
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
@@ -119,21 +120,19 @@ gvfs-mtp
 gvfs-gphoto2
 unifetch
 pavucontrol-qt
-qjackctl
 pipewire
+qjackctl
 wireplumber
+gst-plugin-pipewire
 pipewire-jack
 pipewire-alsa
 pipewire-pulse
-gst-plugin-pipewire
 moevalent-logo
-univalent-logo
-moe-pink-lxqt-theme
 libcdio
 ntp
+oxygen-icons
 
 # Fonts
-ttf-seto
 noto-fonts-cjk
 noto-fonts
 noto-fonts-emoji
@@ -143,7 +142,7 @@ ttf-ubuntu-font-family
 #Installer
 grub
 calamares
-calamares-settings-moevalent
+calamares-settings-univalent
 os-prober
 univalive
 
@@ -162,15 +161,15 @@ kcalc
 vim
 
 # Graphics
-gimp
 screengrab
 
 # System Tools
-archlinux-appstream-data-pamac
+archlinux-appstream-data
 libpamac-aur
 pamac-aur
 base-devel
 aptpac
+dnfpac
 univalent-tools
 add-pacman-repository
 curl
@@ -178,7 +177,7 @@ git
 ksysguard
 partitionmanager
 xscreensaver
-yay
+nako
 zip
 unzip
 wget
@@ -189,7 +188,8 @@ vlc
 rhythmbox
 
 # Internet
-floorp
+firefox
+firefox-i18n-ja
 claws-mail
 
 # Office
@@ -199,7 +199,7 @@ okular
 
 # Input Method
 fcitx5-im
-fcitx5-anthy-unicode
+fcitx5-anthy
 anthy-unicode
 kasumi-unicode
 
@@ -214,10 +214,15 @@ system-config-printer
 sane
 skanlite
 
+# Themes
+moevalent-lxqt-theme
+moe-pink-gtk-theme
+moe-pink-icons
+
 # Chaotic AUR
 chaotic-keyring
 chaotic-mirrorlist
 
 # Plymouth
 plymouth
-plymouth-theme-mvgl-logo
+plymouth-theme-uve-logo
