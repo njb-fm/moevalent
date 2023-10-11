@@ -12,4 +12,4 @@ Moevalent is derived from Univalent Versatile Environment with the so-called "mo
 |main|Relatively stable. Features introduced in the next release are included.|
 |testing|Because the update frequency is high, the latest function can be used although it's unstable.|
 |22.12|First Stable Release.|
-|23.10|Next Stable Release. Development has  been canceled.|
+|23.10|Next Stable Release.|
